@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en-GB" data-mode="day">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project 44 | Neighbourhood café on Rivington Street, Shoreditch</title>
+  <meta name="description" content="Project 44 is Shoreditch's neighbourhood café at 44 Rivington Street. Coffee, pastries, breakfast and lunch from 7am, wine and Tasca small plates in the evening. Space for private events.">
+  <!-- Pitch preview: remove the next line when the site goes live -->
+  <meta name="robots" content="noindex">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Project 44, Rivington Street">
+  <meta property="og:description" content="Coffee, pastries, breakfast and lunch in Shoreditch. Wine and small plates in the evening.">
+  <meta property="og:image" content="assets/img/counter-dog.jpg">
+  <meta name="theme-color" content="#EFE6D6">
+  <link rel="icon" type="image/png" href="assets/logo/favicon.png">
+  <link rel="apple-touch-icon" href="assets/logo/apple-touch-icon.png">
+  <link rel="preload" href="assets/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CafeOrCoffeeShop",
+    "name": "Project 44",
+    "description": "Shoreditch's neighbourhood café on Rivington Street, serving coffee, pastries, breakfast and lunch.",
+    "image": "assets/img/counter-dog.jpg",
+    "email": "events@project44.london",
+    "servesCuisine": ["Coffee", "Breakfast", "Lunch", "Pastries", "Wine"],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "44 Rivington Street",
+      "addressLocality": "London",
+      "postalCode": "EC2A 3QP",
+      "addressCountry": "GB"
+    },
+    "openingHoursSpecification": [
+      {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Friday"], "opens": "07:00", "closes": "18:00"},
+      {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Wednesday","Thursday"], "opens": "07:00", "closes": "23:00"},
+      {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Saturday","Sunday"], "opens": "08:00", "closes": "18:00"}
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#top" class="brand" aria-label="Project 44, back to top">
+        <img src="assets/logo/project-44-logo.png" alt="Project 44" width="69" height="40">
+      </a>
+      <p class="status" id="status" aria-live="polite">Open daily on Rivington Street</p>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="#eat">Eat &amp; drink</a></li>
+          <li><a href="#opening-times">Hours</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#visit">Visit</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO: day / night switch is the one big idea of the site -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-text">
+        <h1 id="hero-title" class="hero-title">
+          <span class="when-day">Your local on Rivington Street</span>
+          <span class="when-night">After six on Rivington Street</span>
+        </h1>
+        <p class="hero-lede when-day">Coffee, pastries, breakfast and lunch from 7am. Bring the laptop, take the window seat, stay as long as you like.</p>
+        <p class="hero-lede when-night">Late on Wednesdays and Thursdays. Wine, vermouth and tonic, and small plates from Tasca at the red tiled bar.</p>
+
+        <div class="switch" role="group" aria-label="Show the café by day or by night">
+          <button class="switch-btn" data-set="day" aria-pressed="true">By day</button>
+          <button class="switch-btn" data-set="night" aria-pressed="false">By night</button>
+        </div>
+
+        <div class="hero-actions">
+          <a class="btn when-day" href="#eat">See the menu</a>
+          <a class="btn when-night" href="https://www.instagram.com/tasca.london/" target="_blank" rel="noopener">Book Tasca on Instagram</a>
+          <a class="link" href="https://maps.google.com/?q=44+Rivington+Street+London+EC2A+3QP" target="_blank" rel="noopener">Get directions</a>
+        </div>
+      </div>
+
+      <div class="hero-media">
+        <img class="when-day" src="assets/img/red-counter.jpg" alt="Pastries on the red tiled counter while a barista works the espresso machine" width="816" height="1020" fetchpriority="high">
+        <img class="when-night" src="assets/img/wine-evening.jpg" alt="Staff at the bar in the evening with wine glasses and bread" width="711" height="1020" loading="lazy">
+        <span class="hero-sticker" aria-hidden="true"><img src="assets/logo/project-44-logo.png" alt="" width="690" height="402"></span>
+      </div>
+    </section>
+
+    <!-- INTRO: their own words, with photos set into the sentence -->
+    <section class="intro" aria-label="About Project 44">
+      <p class="intro-text">
+        East London born and rooted in the neighbourhood. Come for <span class="nw">coffee <img class="pill" src="assets/img/matcha-lattes.jpg" alt="" width="765" height="1020" loading="lazy">,</span>
+        stay for <span class="nw">lunch <img class="pill" src="assets/img/sandwiches-cookies.jpg" alt="" width="765" height="1020" loading="lazy">,</span>
+        get some work done at the communal <span class="nw">table <img class="pill" src="assets/img/long-table.jpg" alt="" width="284" height="473" loading="lazy"></span>
+        or watch Shoreditch go by from the window.
+      </p>
+      <div class="intro-side">
+        <p>We work with brilliant independent suppliers and believe great hospitality should make everyone feel like a regular, even on their first visit.</p>
+        <p class="intro-hours">Open seven days. From 7am on weekdays and 8am at weekends, until 11pm on Wednesday and Thursday. <a href="#opening-times">Full hours</a></p>
+      </div>
+    </section>
+
+    <!-- MENU -->
+    <section class="eat" id="eat" aria-labelledby="eat-title">
+      <div class="eat-head">
+        <h2 id="eat-title">Eat &amp; drink</h2>
+        <div class="tabs" role="tablist" aria-label="Menus">
+          <button role="tab" id="tab-counter" aria-controls="panel-counter" aria-selected="true">At the counter</button>
+          <button role="tab" id="tab-tasca" aria-controls="panel-tasca" aria-selected="false" tabindex="-1">Tasca evenings</button>
+        </div>
+      </div>
+
+      <div class="panel" id="panel-counter" role="tabpanel" aria-labelledby="tab-counter">
+        <div class="menu-cols">
+          <div>
+            <h3>Coffee &amp; more</h3>
+            <ul class="plain-list">
+              <li>Espresso</li><li>Macchiato</li><li>Piccolo</li><li>Cortado</li><li>Flat white</li>
+              <li>Latte</li><li>Cappuccino</li><li>Short black</li><li>Long black</li><li>Americano</li>
+              <li>Mocha</li><li>Chai latte</li><li>Hot chocolate</li><li>Matcha</li><li>Tea</li><li>Cold brew</li>
+            </ul>
+            <p class="note">Decaf always on. Honey and elderflower espresso tonic while it's warm.</p>
+          </div>
+          <div>
+            <h3>Pastries &amp; lunch</h3>
+            <ul class="price-list">
+              <li><span>Croissant</span><span>£3.50</span></li>
+              <li><span>Pain au chocolat</span><span>£3.50</span></li>
+              <li><span>Almond croissant</span><span>£—</span></li>
+              <li><span>Cinnamon bun</span><span>£4.00</span></li>
+              <li><span>Sticky bun</span><span>£4.00</span></li>
+              <li><span>Cheese scone</span><span>£4.00</span></li>
+              <li><span>Cookies, incl. matcha</span><span>£4.50</span></li>
+              <li><span>Banana bread</span><span>£—</span></li>
+              <li><span>Prosciutto bun</span><span>£8.50</span></li>
+              <li><span>BLT sando</span><span>£9.00</span></li>
+            </ul>
+          </div>
+          <figure class="menu-photo">
+            <img src="assets/img/pastries.jpg" alt="Cinnamon buns, sticky buns and croissants piled on a board" width="765" height="1020" loading="lazy">
+          </figure>
+        </div>
+
+        <div class="cans">
+          <img src="assets/img/cans-on-ice.jpg" alt="Clear cans of iced latte, matcha and lemonade printed with the red 44 logo, on ice" width="1020" height="1020" loading="lazy">
+          <div class="cans-text">
+            <h3>Iced, then sealed in a can</h3>
+            <p>Iced lattes, matcha and lemonade are poured and canned behind the counter. Take one from the ice on your way to work.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel" id="panel-tasca" role="tabpanel" aria-labelledby="tab-tasca" hidden>
+        <div class="tasca">
+          <div class="tasca-text">
+            <h3>Tasca, Portuguese and Spanish small plates</h3>
+            <p>Tasca is a travelling bistro from chef Josh Dallaway and sommelier Sinead Murdoch, now cooking out of the café in the evening. One hot plate, a short wine list, and a long table.</p>
+            <p class="note">Dishes from a recent menu. It changes often, so check Instagram for this week's.</p>
+            <a class="btn" href="https://www.instagram.com/tasca.london/" target="_blank" rel="noopener">See @tasca.london</a>
+          </div>
+          <ul class="tasca-list">
+            <li>Gilda with Don Bocarte anchovy</li>
+            <li>Piquillo pepper toast, goat's curd, salsa ruda</li>
+            <li>Beetroot baked in used coffee grounds, coffee vinegar cream, hazelnut</li>
+            <li>Kombu-cured red prawns, grated tomato, fig leaf vinegar, plums</li>
+            <li>Beef tartare al pil-pil</li>
+            <li>Mussel and chorizo rice</li>
+            <li>Brown butter cake, poached apricots, saffron cream</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY: sideways scroll, no slider script -->
+    <section class="gallery" aria-labelledby="gallery-title">
+      <div class="gallery-head">
+        <h2 id="gallery-title">Inside number 44</h2>
+        <p>White brick, a red tiled bar, and big windows on to the street.</p>
+      </div>
+      <div class="marquee">
+      <ul class="marquee-track" aria-label="Photos of the café">
+        <li class="w"><img src="assets/img/interior.jpg" alt="The café empty in the morning: long wooden tables, red tiled bar, tall windows" width="1360" height="907" loading="lazy"></li>
+        <li><img src="assets/img/barista.jpg" alt="Barista at the espresso machine" width="680" height="1020" loading="lazy"></li>
+        <li><img src="assets/img/iced-matcha.jpg" alt="Iced matcha in a 44 cup" width="1020" height="1020" loading="lazy"></li>
+        <li class="w"><img src="assets/img/counter-dog.jpg" alt="Customers and a dog at the counter under the 44 coffee menu" width="1360" height="907" loading="lazy"></li>
+        <li><img src="assets/img/beans-shelf.jpg" alt="Bags of coffee beans to take home on a wooden shelf" width="680" height="1020" loading="lazy"></li>
+        <li><img src="assets/img/iced-latte.jpg" alt="Espresso poured into an iced latte" width="642" height="480" loading="lazy"></li>
+        <li class="w"><img src="assets/img/espresso-machine.jpg" alt="Espresso machine stacked with 44 cups by the window" width="1360" height="906" loading="lazy"></li>
+        <li><img src="assets/img/menu-board.jpg" alt="Staff laughing at the counter" width="642" height="480" loading="lazy"></li>
+      </ul>
+      </div>
+      <div class="review">
+        <blockquote class="quote">
+          <p>“Coffee was excellent. I appreciated that they had decaf on offer.”</p>
+          <footer>From a 5 star review on TripAdvisor</footer>
+        </blockquote>
+        <a class="btn btn-outline" href="https://www.google.com/maps/search/?api=1&amp;query=Project+44+44+Rivington+Street+London+EC2A+3QP" target="_blank" rel="noopener">Read all reviews on Google</a>
+      </div>
+    </section>
+
+    <!-- EVENTS -->
+    <section class="events" id="events" aria-labelledby="events-title">
+      <div class="checks" aria-hidden="true"></div>
+      <div class="events-inner">
+        <h2 id="events-title">Have the whole place</h2>
+        <div class="events-body">
+          <p>Private hire for launches, pop-ups, team breakfasts, tastings and parties. Long tables, a bar, proper speakers, and a corner of Shoreditch to yourselves.</p>
+          <a class="btn btn-light" href="mailto:events@project44.london?subject=Event%20enquiry">Send an event enquiry</a>
+          <p class="events-mail">or write to events@project44.london</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- VISIT -->
+    <section class="visit" id="visit" aria-labelledby="visit-title">
+      <div class="visit-text">
+        <h2 id="visit-title">44 Rivington Street</h2>
+        <address>Shoreditch, London EC2A 3QP</address>
+        <p>A short walk from Old Street and Shoreditch High Street stations.</p>
+        <div class="hero-actions">
+          <a class="btn" href="https://maps.google.com/?q=44+Rivington+Street+London+EC2A+3QP" target="_blank" rel="noopener">Get directions</a>
+          <a class="link" href="mailto:events@project44.london">events@project44.london</a>
+        </div>
+      </div>
+      <div class="map">
+        <iframe title="Map showing Project 44 at 44 Rivington Street" src="https://www.google.com/maps?q=44+Rivington+Street,+London+EC2A+3QP&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="opening" id="opening-times">
+        <h3>Opening times</h3>
+        <dl class="opening-list" id="opening-list"><!-- filled from HOURS in js/main.js --></dl>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p class="footer-big" aria-hidden="true">Project 44</p>
+    <div class="footer-row">
+      <p>44 Rivington Street, London EC2A 3QP</p>
+      <p><a href="mailto:events@project44.london">events@project44.london</a></p>
+      <p>© <span id="year">2026</span> Project 44. Website by <a href="mailto:shahshubham130@gmail.com">Shubham Shah</a></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
