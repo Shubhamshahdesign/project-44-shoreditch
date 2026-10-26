@@ -105,6 +105,19 @@ const fmt = (h) => {
     document.addEventListener('keydown', (e) => { if (e.key === 'Escape') close(); });
   }
 
+  // Hero: today's hours
+const heroToday = document.getElementById('hero-today');
+if (heroToday) heroToday.textContent = `${fmt(today.open)} to ${fmt(today.close)}`;
+
+// Header is transparent over the hero, solid once you scroll past it
+const header = document.querySelector('.site-header');
+const hero = document.querySelector('.hero');
+if (header && hero) {
+  const onScroll = () => header.classList.toggle('is-over-hero', window.scrollY < hero.offsetHeight - 80);
+  onScroll();
+  window.addEventListener('scroll', onScroll, { passive: true });
+}
+
   const y = document.getElementById('year');
   if (y) y.textContent = now.getFullYear();
 })();
