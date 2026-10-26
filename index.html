@@ -10,7 +10,7 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="Project 44, Rivington Street">
   <meta property="og:description" content="Coffee, pastries, breakfast and lunch in Shoreditch. Wine and small plates in the evening.">
-  <meta property="og:image" content="assets/img/counter-dog.jpg">
+  <meta property="og:image" content="assets/img/hero-counter.jpg">
   <meta name="theme-color" content="#EFE6D6">
   <link rel="icon" type="image/png" href="assets/logo/favicon.png">
   <link rel="apple-touch-icon" href="assets/logo/apple-touch-icon.png">
@@ -62,39 +62,41 @@
   </header>
 
   <main id="main">
-    <!-- HERO: day / night switch is the one big idea of the site -->
+    <!-- HERO: full-bleed photo of the counter -->
     <section class="hero" id="top" aria-labelledby="hero-title">
-    <div class="hero-bg" aria-hidden="true">
-      <img src="assets/img/hero-counter.jpg" alt="" width="1344" height="896" fetchpriority="high">
-    </div>
-    <div class="hero-content">
-      <div class="hero-main">
-        <p class="hero-kicker">44 Rivington Street, Shoreditch</p>
-        <h1 id="hero-title" class="hero-title">
-          <span class="when-day">The neighbourhood café on Rivington Street</span>
-          <span class="when-night">Wine and small plates on Rivington Street</span>
-        </h1>
-        <p class="hero-lede when-day">Specialty coffee, pastries baked each morning, breakfast and lunch. Make yourself a regular from your first visit.</p>
-        <p class="hero-lede when-night">Late on Wednesday and Thursday, with Tasca cooking Portuguese and Spanish plates at the red tiled bar.</p>
-        <div class="hero-actions">
-          <a class="btn btn-hero when-day" href="#eat">See the menu</a>
-          <a class="btn btn-hero when-night" href="https://www.instagram.com/tasca.london/" target="_blank" rel="noopener">Book Tasca</a>
-          <a class="hero-link" href="https://maps.google.com/?q=44+Rivington+Street+London+EC2A+3QP" target="_blank" rel="noopener">Get directions</a>
-        </div>
+      <div class="hero-bg" aria-hidden="true">
+        <img src="assets/img/hero-counter.jpg" alt="" width="1344" height="896" fetchpriority="high">
       </div>
-      <aside class="hero-panel" aria-label="Today at Project 44">
-        <dl>
-          <div><dt>Today</dt><dd id="hero-today">7am to 6pm</dd></div>
-          <div><dt>Late</dt><dd>Wed and Thu until 11pm</dd></div>
-          <div><dt>Events</dt><dd><a href="#events">Hire the whole café</a></dd></div>
-        </dl>
-        <div class="switch" role="group" aria-label="Show the café by day or by night">
-          <button class="switch-btn" data-set="day" aria-pressed="true">By day</button>
-          <button class="switch-btn" data-set="night" aria-pressed="false">By night</button>
+
+      <div class="hero-content">
+        <div class="hero-main">
+          <p class="hero-kicker">44 Rivington Street, Shoreditch</p>
+          <h1 id="hero-title" class="hero-title">
+            <span class="when-day">The neighbourhood café on Rivington Street</span>
+            <span class="when-night">Wine and small plates on Rivington Street</span>
+          </h1>
+          <p class="hero-lede when-day">Specialty coffee, pastries baked each morning, breakfast and lunch. Make yourself a regular from your first visit.</p>
+          <p class="hero-lede when-night">Late on Wednesday and Thursday, with Tasca cooking Portuguese and Spanish plates at the red tiled bar.</p>
+          <div class="hero-actions">
+            <a class="btn btn-hero when-day" href="#eat">See the menu</a>
+            <a class="btn btn-hero when-night" href="https://www.instagram.com/tasca.london/" target="_blank" rel="noopener">Book Tasca</a>
+            <a class="hero-link" href="https://maps.google.com/?q=44+Rivington+Street+London+EC2A+3QP" target="_blank" rel="noopener">Get directions</a>
+          </div>
         </div>
-      </aside>
-    </div>
-  </section>
+
+        <aside class="hero-panel" aria-label="Today at Project 44">
+          <dl>
+            <div><dt>Today</dt><dd id="hero-today">7am to 6pm</dd></div>
+            <div><dt>Late</dt><dd>Wed and Thu until 11pm</dd></div>
+            <div><dt>Events</dt><dd><a href="#events">Hire the whole café</a></dd></div>
+          </dl>
+          <div class="switch" role="group" aria-label="Show the café by day or by night">
+            <button class="switch-btn" data-set="day" aria-pressed="true">By day</button>
+            <button class="switch-btn" data-set="night" aria-pressed="false">By night</button>
+          </div>
+        </aside>
+      </div>
+    </section>
 
     <!-- INTRO: their own words, with photos set into the sentence -->
     <section class="intro" aria-label="About Project 44">
