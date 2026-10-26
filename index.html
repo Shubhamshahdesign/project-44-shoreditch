@@ -43,7 +43,7 @@
 <body>
   <a class="skip" href="#main">Skip to content</a>
 
-  <header class="site-header">
+  <header class="site-header is-over-hero">
     <div class="header-inner">
       <a href="#top" class="brand" aria-label="Project 44, back to top">
         <img src="assets/logo/project-44-logo.png" alt="Project 44" width="69" height="40">
@@ -64,32 +64,37 @@
   <main id="main">
     <!-- HERO: day / night switch is the one big idea of the site -->
     <section class="hero" id="top" aria-labelledby="hero-title">
-      <div class="hero-text">
+    <div class="hero-bg" aria-hidden="true">
+      <img src="assets/img/hero-counter.jpg" alt="" width="1344" height="896" fetchpriority="high">
+    </div>
+    <div class="hero-content">
+      <div class="hero-main">
+        <p class="hero-kicker">44 Rivington Street, Shoreditch</p>
         <h1 id="hero-title" class="hero-title">
-          <span class="when-day">Your local on Rivington Street</span>
-          <span class="when-night">After six on Rivington Street</span>
+          <span class="when-day">The neighbourhood café on Rivington Street</span>
+          <span class="when-night">Wine and small plates on Rivington Street</span>
         </h1>
-        <p class="hero-lede when-day">Coffee, pastries, breakfast and lunch from 7am. Bring the laptop, take the window seat, stay as long as you like.</p>
-        <p class="hero-lede when-night">Late on Wednesdays and Thursdays. Wine, vermouth and tonic, and small plates from Tasca at the red tiled bar.</p>
-
+        <p class="hero-lede when-day">Specialty coffee, pastries baked each morning, breakfast and lunch. Make yourself a regular from your first visit.</p>
+        <p class="hero-lede when-night">Late on Wednesday and Thursday, with Tasca cooking Portuguese and Spanish plates at the red tiled bar.</p>
+        <div class="hero-actions">
+          <a class="btn btn-hero when-day" href="#eat">See the menu</a>
+          <a class="btn btn-hero when-night" href="https://www.instagram.com/tasca.london/" target="_blank" rel="noopener">Book Tasca</a>
+          <a class="hero-link" href="https://maps.google.com/?q=44+Rivington+Street+London+EC2A+3QP" target="_blank" rel="noopener">Get directions</a>
+        </div>
+      </div>
+      <aside class="hero-panel" aria-label="Today at Project 44">
+        <dl>
+          <div><dt>Today</dt><dd id="hero-today">7am to 6pm</dd></div>
+          <div><dt>Late</dt><dd>Wed and Thu until 11pm</dd></div>
+          <div><dt>Events</dt><dd><a href="#events">Hire the whole café</a></dd></div>
+        </dl>
         <div class="switch" role="group" aria-label="Show the café by day or by night">
           <button class="switch-btn" data-set="day" aria-pressed="true">By day</button>
           <button class="switch-btn" data-set="night" aria-pressed="false">By night</button>
         </div>
-
-        <div class="hero-actions">
-          <a class="btn when-day" href="#eat">See the menu</a>
-          <a class="btn when-night" href="https://www.instagram.com/tasca.london/" target="_blank" rel="noopener">Book Tasca on Instagram</a>
-          <a class="link" href="https://maps.google.com/?q=44+Rivington+Street+London+EC2A+3QP" target="_blank" rel="noopener">Get directions</a>
-        </div>
-      </div>
-
-      <div class="hero-media">
-        <img class="when-day" src="assets/img/red-counter.jpg" alt="Pastries on the red tiled counter while a barista works the espresso machine" width="816" height="1020" fetchpriority="high">
-        <img class="when-night" src="assets/img/wine-evening.jpg" alt="Staff at the bar in the evening with wine glasses and bread" width="711" height="1020" loading="lazy">
-        <span class="hero-sticker" aria-hidden="true"><img src="assets/logo/project-44-logo.png" alt="" width="690" height="402"></span>
-      </div>
-    </section>
+      </aside>
+    </div>
+  </section>
 
     <!-- INTRO: their own words, with photos set into the sentence -->
     <section class="intro" aria-label="About Project 44">
